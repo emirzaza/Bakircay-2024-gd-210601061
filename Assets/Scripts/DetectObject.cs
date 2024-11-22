@@ -13,7 +13,7 @@ public class DetectObject : MonoBehaviour
     private Vector3 _totalForce = Vector3.zero;
     private float _forceFactor = 5f;
 
-    // Start is called before the first frame update
+    
     void Start()
     {
         _mainCamera = Camera.main;
@@ -71,23 +71,12 @@ public class DetectObject : MonoBehaviour
     {
         if (_rigidbodyToJump != null)
         {
-            // Debug.Log("Force before :" + _rigidbodyToJump.velocity);
+            
             _rigidbodyToJump.AddForce(_totalForce * _forceFactor, ForceMode.Impulse);
             _totalForce = Vector3.zero;
         }
 
     }
 
-    /* private IEnumerator RigidbodyVelocity(Rigidbody rb)
-    {
-        yield return new WaitForFixedUpdate();
-
-        for (int i = 0; i < 10; i++)
-        {
-            Debug.Log("Force after :" + rb.velocity);
-            yield return new WaitForSeconds(0.1f);
-            yield return new WaitForFixedUpdate();
-        }
-    }   */
 
 }
