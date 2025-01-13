@@ -5220,8 +5220,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: def4a4ec6b319ac40bf0dfc77288cf9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 5
+  jumpForce: 10
   itemSpawner: {fileID: 1250551187}
+  particlePrefab: {fileID: 100014, guid: 7ae0f082131b65b4db997d70d822add3, type: 3}
 --- !u!1 &416630752
 GameObject:
   m_ObjectHideFlags: 0
@@ -22750,8 +22751,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ce03fabd5873c149aaf45f4b3fe5abb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pushForce: 10
+  pushForce: 25
   itemSpawner: {fileID: 1250551187}
+  particlePrefab: {fileID: 100000, guid: 53d301af6d66cf94497e9fcec3cb6699, type: 3}
 --- !u!4 &1879526283
 Transform:
   m_ObjectHideFlags: 0
