@@ -1,7 +1,7 @@
--Oyuncu, ekranda bulunan silindir insanları kontrol ederek onları belirli bir hedef noktasına (yıldız nokta) yönlendirebilir.
+MATCH YAPMAK DIŞINDA 4 ÖZELLİK VARDIR. Bu özellikler;
+-Info ile ekranda kalan meyvelerin isimlerini ekrana yazdırma.
+-Bomb butonu ile ekranın ortasında bir konfeti patlatmak.
+-Mix butonu ile bir rüzgar ile meyveleri döndürmek.
+-Smash butonu ile ekrandaki tüm cisimleri zıplatmak.
 
--Hedefe ulaşan silindir insan, tamamen hedef alanının içine girdikten sonra dik bir pozisyonda durur ve hareketsiz kalır.
-
--Hedef noktasında bekleyen silindir insan, başka bir silindir insan hedef alanına tamamen girene kadar hareketsiz kalmaya devam eder.
-
-Youtube Linki= https://www.youtube.com/watch?v=0qmYYOmXOwQ
+WebGL ile oyun github üzerinden açıldığında tam ekran yapıldığında en başarılı oyun deneyimi sunulmaktadır. 
